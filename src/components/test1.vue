@@ -1,5 +1,5 @@
 <template>
-	<div id="app1">
+	<div id="test1">
 		<div>{{message}}</div>
 		<ul>
 			<li v-for="item in items">{{item.title}}</li>
@@ -30,6 +30,7 @@
 
 <script>
 	export default {
+		
 		name: "test1",
 		props:{
 			msg:{

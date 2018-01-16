@@ -37,7 +37,6 @@
 
 <style scoped>
 	/*样式控制*/
-	
 	.class1 {
 		background: #444;
 		color: #eee;
