@@ -3,24 +3,20 @@
 		<!--<img src="./assets/logo.png">
     <router-view/>-->
 
-		<test1></test1>
+		<test1 msg="新的属性值"></test1>
 		
 	</div>
 </template>
 
 <script>
-//	import test from './components/test'
 	import test1 from './components/test1'
 	export default {
-		name: "app",
+		name: 'app',
 		components: {
 			test1
 		}
 	}
 
-	//export default {
-	//name: 'app'
-	//}
 </script>
 
 <style>
@@ -33,3 +29,6 @@
   margin-top: 60px;
 }*/
 </style>
+
+<!--unexpected tab character-->
+<!--解决：-->
